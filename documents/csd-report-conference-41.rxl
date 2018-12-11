@@ -1,0 +1,38 @@
+<bibdata type="administrative">
+  <title language="en" format="text/plain">Report on CalConnect Conference XLI, January 31 - February 2, 2018</title>
+  <docidentifier type="csd">CC/A 1801:2018</docidentifier>
+  <docnumber>1801</docnumber>
+  <date type="published">
+    <on>2018-03-02T00:00:00Z</on>
+  </date>
+  <edition>1</edition>
+  <version>
+    <revision-date>2018-03-02T00:00:00Z</revision-date>
+  </version>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <status format="plain">published</status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <editorialgroup>
+    <technical-committee>CHAIRS</technical-committee>
+  </editorialgroup>
+</bibdata>
