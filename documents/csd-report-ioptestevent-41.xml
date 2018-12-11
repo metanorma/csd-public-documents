@@ -38,61 +38,61 @@
     <technical-committee>IOPTEST</technical-committee>
   </editorialgroup>
 </bibdata>
-<preface><foreword obligation="informative"><title>Foreword</title><p id="_779d901e-1f22-4124-99f6-070d11681270">The Calendaring and Scheduling Consortium (“CalConnect”) is global non-profit
+<preface><foreword obligation="informative"><title>Foreword</title><p id="_c69a2a7e-b6d6-4598-8e11-54c15d77a446">The Calendaring and Scheduling Consortium (“CalConnect”) is global non-profit
 organization with the aim to facilitate interoperability of technologies across
 user-centric systems and applications.</p>
-<p id="_24a08358-37d9-42ed-a42f-08c8a52c0d07">CalConnect works closely with liaison partners including international
+<p id="_01601259-1e85-45fe-ac5d-6d8be56d985f">CalConnect works closely with liaison partners including international
 organizations such as ISO, OASIS and M3AAWG.</p>
-<p id="_5a314d5c-d2bb-41ef-8219-38b7613a4891">The procedures used to develop this document and those intended for its further
+<p id="_2bf05cda-c7d5-4505-a0c5-ccfe04d02969">The procedures used to develop this document and those intended for its further
 maintenance are described in the CalConnect Directives.</p>
-<p id="_9971f5e9-f010-4e10-9411-53e50f44f110">In particular the different approval criteria needed for the different types of
+<p id="_bc52686f-b09d-4e65-8682-a527917a38ee">In particular the different approval criteria needed for the different types of
 ISO documents should be noted. This document was drafted in accordance with the
 editorial rules of the CalConnect Directives.</p>
-<p id="_ff86547e-3103-44ff-84df-fcd4ce4b1e28">Attention is drawn to the possibility that some of the elements of this
+<p id="_059a0a82-ecdf-4879-b190-03ea517b5eaf">Attention is drawn to the possibility that some of the elements of this
 document may be the subject of patent rights. CalConnect shall not be held responsible
 for identifying any or all such patent rights. Details of any patent rights
 identified during the development of the document will be in the Introduction
 and/or on the CalConnect list of patent declarations received (see
 www.calconnect.com/patents).</p>
-<p id="_e748deb9-81aa-4274-b93d-c20cd38cab41">Any trade name used in this document is information given for the convenience
+<p id="_e76c2170-58e0-4401-9547-e6bb5bcd234c">Any trade name used in this document is information given for the convenience
 of users and does not constitute an endorsement.</p>
-<p id="_24bf3dae-beed-4d4f-9f1f-7c62814521cb">This document was prepared by Technical Committee <em>IOPTEST</em>.</p></foreword></preface><sections>
-<clause id="_report" obligation="normative"><title>Report</title><p id="_4f527a7b-7bab-4ca4-b6d3-a4100cd02a3c">The event was hosted by Oath in Sunnyvale, California, January 29-31, 2018</p>
-<p id="_aab70d33-93d4-490f-92f0-4aca311581b3">In attendance for this interoperability event and developers forum were:</p>
-<ul id="_b63d8052-ed4f-4357-b089-d964dafe5e41">
+<p id="_9b397185-1934-4d41-a875-9bc3e523329c">This document was prepared by Technical Committee <em>IOPTEST</em>.</p></foreword></preface><sections>
+<clause id="_report" obligation="normative"><title>Report</title><p id="_6ac42141-dd30-43c5-8ef9-bff7a60b6de5">The event was hosted by Oath in Sunnyvale, California, January 29-31, 2018</p>
+<p id="_80ff47d9-223b-47c1-bdc4-b3a410d61541">In attendance for this interoperability event and developers forum were:</p>
+<ul id="_164bd629-acf3-4da0-a530-0ba8c0333aa5">
   <li>
-    <p id="_5d0a1bf1-8fec-4c9c-8bfd-2f1c7173c233">Mike Douglass Spherical Cow Group - managing the event</p>
+    <p id="_54ba7668-683d-4eb8-a3a5-3252257b5666">Mike Douglass Spherical Cow Group - managing the event</p>
   </li>
   <li>
-    <p id="_1009b27d-7b8d-4780-ab5e-6360b804f8b4">Ken Murchison for Fastmail</p>
+    <p id="_66cb7f27-de4c-4c00-a6d0-a5b8768423c8">Ken Murchison for Fastmail</p>
   </li>
   <li>
-    <p id="_fdc8542a-df2f-4e5c-9667-37d2a775dc0d">Thomas Schäfer for 1&amp;1</p>
+    <p id="_a2f94143-1f11-4291-859a-b936605d57da">Thomas Schäfer for 1&amp;1</p>
   </li>
   <li>
-    <p id="_710d576f-7640-4545-842d-0b6c4dd7207c">Greg Solovyev for Zimbra</p>
+    <p id="_b9336a39-a37f-4ca1-86c2-9bdf98fc43fc">Greg Solovyev for Zimbra</p>
   </li>
   <li>
-    <p id="_ef3eca28-e43b-4998-9fde-dbaa3196d762">Peter Tam for Ribose</p>
+    <p id="_d81581b8-99d9-4e45-ac76-7d4755f033ca">Peter Tam for Ribose</p>
   </li>
   <li>
-    <p id="_8867e629-a83c-460c-aac2-ae8327cb9cbd">Richard Brigham and Anjj Kumar Tweari for Oath</p>
+    <p id="_f74a5903-4f2e-4676-b54b-decb84846eff">Richard Brigham and Anjj Kumar Tweari for Oath</p>
   </li>
 </ul>
-<p id="_66895057-9c2d-4bfc-b8ed-a42bbd9b2b65">Despite the small attendance we managed to cover a number of topics.</p>
-<p id="_4e6ef4f1-3e72-47bd-a5dc-8244091a3f72">There was some work being done with <tt>ical4j</tt> as we continue to try to move forward to a version
+<p id="_0a05228d-eea7-4217-9042-2e4f962514b9">Despite the small attendance we managed to cover a number of topics.</p>
+<p id="_4c8de717-0278-4a0a-ad36-da855f58cdf9">There was some work being done with <tt>ical4j</tt> as we continue to try to move forward to a version
 based on the latest from Ben Fortuna. Some members have heavily modified older versions but
 are getting closer. We intend to create a clone with some or all of the members’ changes which
 can be used as a staging point for pushing them up to Ben.</p>
-<p id="_eb5fe923-2423-4973-89a9-4bcf658520d6">There was some discussion on the work that is going on with vCard or its replacement. There
+<p id="_427fb246-b37a-4586-8842-5d70616e84b0">There was some discussion on the work that is going on with vCard or its replacement. There
 are still questions on how to represent all the desired groups of information. It seems the
 discussions helped clarify some points.</p>
-<p id="_511810e6-4da7-4817-bdea-933a13ba60ab">There was more work trying to get the CalDAV tester running. Anuj from Oath got Darwin and
+<p id="_32810285-2b4f-4e03-b691-32df42a698a1">There was more work trying to get the CalDAV tester running. Anuj from Oath got Darwin and
 the tester running together in record time and then proceeded to run tests against their server.</p>
-<p id="_dce73be3-e2df-4650-88b7-412685384f9c">There was more work on updating the developers guide.</p>
-<p id="_89c74f94-d0df-4f7e-af1f-51f0bc6e0e01">In addition we were working on getting vPoll running again as there was to be a demonstration
+<p id="_066a6908-8c79-4174-bc2c-2d0bf253b0c1">There was more work on updating the developers guide.</p>
+<p id="_8b0fad43-83cb-4287-9c8f-bd2c422452a8">In addition we were working on getting vPoll running again as there was to be a demonstration
 in the main conference following.</p>
-<p id="_691c4866-a0b2-4d4b-9ce1-767afa70684a">We should remind potential attendees that the developers forum and test event is as much
+<p id="_7ff9b2f1-1cdc-41cd-a7a5-1751fe38e631">We should remind potential attendees that the developers forum and test event is as much
 about detailed discussions on points of implementation as it is about testing. It provides an
 opportunity to discuss those small details. If you do have something to test or develop then
 come early and get advice on the best path to take.</p></clause></sections>
