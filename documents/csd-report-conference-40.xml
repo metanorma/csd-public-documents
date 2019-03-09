@@ -1,200 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <csd-standard xmlns="https://www.calconnect.org/standards/csd">
-<bibdata type="administrative">
-  <title language="en" format="text/plain">Report on CalConnect Conference XL, September 27-29, 2017</title>
-  <docidentifier type="csd">CC/A 1705:2017</docidentifier>
-  <docnumber>1705</docnumber>
-  <date type="published">
-    <on>2017-10-23T00:00:00Z</on>
-  </date>
-  <edition>1</edition>
-  <version>
-    <revision-date>2017-10-23T00:00:00Z</revision-date>
-  </version>
-  <contributor>
-    <role type="author"/>
-    <organization>
-      <name>CalConnect</name>
-    </organization>
-  </contributor>
-  <contributor>
-    <role type="publisher"/>
-    <organization>
-      <name>CalConnect</name>
-    </organization>
-  </contributor>
-  <language>en</language>
-  <script>Latn</script>
-  <status format="plain">published</status>
-  <copyright>
-    <from>2017</from>
-    <owner>
-      <organization>
-        <name>CalConnect</name>
-      </organization>
-    </owner>
-  </copyright>
-  <editorialgroup>
-    <technical-committee>CHAIRS</technical-committee>
-  </editorialgroup>
+<bibdata type="administrative"> 
+  <title language="en" format="text/plain">Report on CalConnect Conference XL, September 27-29, 2017</title> 
+  <docidentifier type="csd">CC/A 1705:2017</docidentifier> 
+  <docnumber>1705</docnumber> 
+  <date type="published"> 
+    <on>2017-10-23T00:00:00Z</on> 
+  </date> 
+  <contributor> 
+    <role type="author"/> 
+    <organization> 
+      <name>CalConnect</name> 
+    </organization> 
+  </contributor> 
+  <contributor> 
+    <role type="publisher"/> 
+    <organization> 
+      <name>CalConnect</name> 
+    </organization> 
+  </contributor> 
+  <edition>1</edition> 
+  <version> 
+    <revision-date>2017-10-23T00:00:00Z</revision-date> 
+  </version> 
+  <language>en</language> 
+  <script>Latn</script> 
+  <status format="plain">published</status> 
+  <copyright> 
+    <from>2017</from> 
+    <owner> 
+      <organization> 
+        <name>CalConnect</name> 
+      </organization> 
+    </owner> 
+  </copyright> 
+  <editorialgroup> 
+    <technical-committee>CHAIRS</technical-committee> 
+  </editorialgroup> 
 </bibdata>
-<preface><foreword obligation="informative"><title>Foreword</title><p id="_7965f0ac-5be1-49fb-a6bb-c362c491bd3e">The Calendaring and Scheduling Consortium (“CalConnect”) is global non-profit
-organization with the aim to facilitate interoperability of technologies across
-user-centric systems and applications.</p>
-<p id="_eec7e7dc-9fe7-422e-b2c0-5b61940c6f2f">CalConnect works closely with liaison partners including international
-organizations such as ISO, OASIS and M3AAWG.</p>
-<p id="_8289c0e1-a308-4928-b594-8532bf217df3">The procedures used to develop this document and those intended for its further
-maintenance are described in the CalConnect Directives.</p>
-<p id="_093d44e9-0772-4f8d-8977-88518d178f1c">In particular the different approval criteria needed for the different types of
-ISO documents should be noted. This document was drafted in accordance with the
-editorial rules of the CalConnect Directives.</p>
-<p id="_601aceaa-c1de-44f0-909d-bd73ccd97b7b">Attention is drawn to the possibility that some of the elements of this
-document may be the subject of patent rights. CalConnect shall not be held responsible
-for identifying any or all such patent rights. Details of any patent rights
-identified during the development of the document will be in the Introduction
-and/or on the CalConnect list of patent declarations received (see
-www.calconnect.com/patents).</p>
-<p id="_63977243-1d44-4930-9bdb-1e165ebbeb1a">Any trade name used in this document is information given for the convenience
-of users and does not constitute an endorsement.</p>
-<p id="_2b126ae4-55e9-4c1f-83a4-d254a25b078f">This document was prepared by Technical Committee <em>CHAIRS</em>.</p></foreword><introduction id="_introduction" obligation="informative"><title>Introduction</title><p id="_22ddb1db-3c65-47e3-9012-50a7e01fb6df">CalConnect XL took place September 27-29, 2017, hosted by Open-Xchange in
-Cologne, Germany. The CalConnect Test Event (Monday, Tuesday, and Wednesday
-morning) and Conference (Wednesday afternoon, Thursday and Friday) were held at
-Komed House, a conference facility in the Cologne Media Park.</p>
-<p id="_cd90d4e8-7dca-44c6-983c-ade5fc8d116c">The CalConnect Conference was attended by 20 people from 12 members plus a
-guest from GFI. The Test Event/Developers Forum had 10 participants from 7
-members and was largely devoted to the forum and CalDAV Tester rather than specific
-testing.</p>
-<p id="_16a43249-ef8a-4937-9810-abd87fa15533">The Conference focussed on strategic and possible work items in addition to ongoing
-work, and finished with the CalConnect Plenary Session on Friday afternoon. The
-Conference agenda with notes on the discussion topics may be found at CalConnect
-XL Conference Schedule.</p></introduction></preface><sections>
-
-<clause id="_status_of_documents_since_last_conference" obligation="normative"><title>Status of documents since last conference</title><p id="_bf9760ab-34db-4f25-92ae-4dad4554df4b">Much of the ongoing work in CalConnect is focused on specifications to become
-internet draft submissions to the IETF and ultimately be progressed to publication as
-RFCs (Proposed Standards), rather than directly published by CalConnect itself.</p>
-<p id="_86ae18c3-acb2-4818-9f0a-738b08f889d4">Specifications in progress and not yet published are generally resident on GitHub either
-in our public or private areas.</p>
-<clause id="_calconnect_drafts_to_be_published_as_informational_rfcs" obligation="normative">
-  <title>CalConnect Drafts to be Published as Informational RFCs</title>
-  <ul id="_db6683ee-aec3-4a35-ba73-d794b5fdda35">
-  <li>
-    <p id="_64119500-5214-4e38-b01f-f93275d50a73">CalDAV Managed Attachments (TC CALENDAR)</p>
-  </li>
-</ul>
-</clause>
-<clause id="_calconnect_drafts_in_calext_working_group_last_call_at_ietf" obligation="normative">
-  <title>CalConnect Drafts in CALEXT Working Group Last Call at IETF</title>
-  <ul id="_20593c19-feac-48e1-85a8-f223f1c2e5f1">
-  <li>
-    <p id="_c5b3c4d8-a080-44ab-bca7-1837b9aa8730">Event Publishing Extensions to iCalendar (TC CALENDAR)</p>
-  </li>
-</ul>
-</clause>
-<clause id="_calconnect_drafts_in_progressing_at_calext_working_group_at_ietf" obligation="normative">
-  <title>CalConnect Drafts in Progressing at CALEXT Working Group at IETF</title>
-  <ul id="_81a49495-140b-4a06-9105-93f29d9ef85d">
-  <li>
-    <p id="_9d93c8d0-3d4f-4d4b-a947-4e1d8b7e7e86">Improved Support for iCalendar Relationships (TC CALENDAR</p>
-  </li>
-</ul>
-</clause>
-<clause id="_new_and_updated_calconnect_drafts_at_the_ietf" obligation="normative">
-  <title>New and Updated CalConnect Drafts at the IETF</title>
-  <ul id="_ee640e72-85e1-4405-bc11-d1b28d7a9980">
-  <li>
-    <p id="_400c9c18-08c3-46ae-a663-7859eba50435">Push Discovery and Notification Dispatch Protocol (TC CALENDAR)</p>
-  </li>
-  <li>
-    <p id="_f5a92eab-7f9c-4683-8f32-ade562e42dc7">Calendar Subscription Upgrades</p>
-  </li>
-  <li>
-    <p id="_a59672a0-a531-447b-b562-4141be64eb3e">JSCalendar: A JSON representation of calendar data</p>
-  </li>
-</ul>
-</clause></clause>
-<clause id="_general_status_and_announcements" obligation="normative"><title>General status and announcements</title><p id="_6b1707ef-93eb-46a3-9773-709db81c334d">Ronald Tse of Ribose was elected the sixth CalConnect Director, and was appointed
-Director, External Relationships.</p>
-<p id="_96c95d1f-2ef6-4f1a-9c6e-4683ed7aaa73">CalConnect has established a formal Category A Liaison with ISO/TC 211 and is
-exploring a similar liaison with ISO/TC 154. We are also exploring a joint liaison with
-M3AAWG.</p></clause>
-<clause id="_status_of_technical_committee_and_related_work_plans_for_future_work" obligation="normative"><title>Status of technical committee and related work; plans for future work</title><clause id="_tc_api" obligation="normative">
-  <title>TC API</title>
-  <p id="_9917c507-527b-418d-b5f3-1c47b2d76b37">Work on JSCalendar is progressing, accommodating contacts and tasks as well as
-events.</p>
-</clause>
-<clause id="_tc_autodiscovery" obligation="normative">
-  <title>TC AUTODISCOVERY</title>
-  <p id="_93966386-d1c0-4419-ad33-59cdfd5d4c4d">Pending; Draft update in progress</p>
-</clause>
-<clause id="_tc_calendar" obligation="normative">
-  <title>TC CALENDAR</title>
-  <p id="_06eedc69-2b8b-4555-8fb1-061f2f3fbd38">Work continues on categorization and event types, consistent handling of per-user
-data in events, support for series in iCalendar (as an alternative to recurrences), alarms
-and transparency in JSCalendar, generic notification systems for alarms, calendar
-subscription upgrades, extensions for improved grouping of properties, and a
-CalConnect version of ical4j.</p>
-</clause>
-<clause id="_tc_devguide" obligation="normative">
-  <title>TC DEVGUIDE</title>
-  <p id="_07fe51fd-a0e9-49ba-bc5a-d8bd9ecd2a8d">Service has been migrated of open shift to the Google App engine. We are looking for
-help with the wikipedia article on CalConnect and related articles. Discussion of
-additional areas to be added to the Developers Guide including CalDAV Tester.</p>
-</clause>
-<clause id="_tc_ioptest" obligation="normative">
-  <title>TC IOPTEST</title>
-  <p id="_6532be74-6b3e-446c-8cd1-99339a8f9fe3">See separate report on Test Event at CalConnect XL. TC IOPTEST calls have been
-integrated into the Event Planning calls and no separate IOPTEST calls were held since
-the previous event in June.</p>
-</clause>
-<clause id="_tc_push" obligation="normative">
-  <title>TC PUSH</title>
-  <p id="_9364d54e-2b26-44c0-8d3b-b5c452f19791">Draft has been submitted to the IETF; we are exploring which working group should
-handle it. Looking for more implementations.</p>
-</clause>
-<clause id="_tc_sharing" obligation="normative">
-  <title>TC SHARING</title>
-  <p id="_df39ffc2-6b87-4bc6-a365-f880cec0127c">Calendar Subscription Upgrades decided on a new status (not cancelled) and adding
-time range query. Working on how to advertise which timezone server is used.</p>
-</clause>
-<clause id="_tc_tester" obligation="normative">
-  <title>TC TESTER</title>
-  <p id="_1a806761-2e6e-4f56-92a2-bb469f214e0c">Brief report on the status of the work.</p>
-</clause>
-<clause id="_tc_vcard" obligation="normative">
-  <title>TC VCARD</title>
-  <p id="_98465165-175c-46df-bdec-dddae44b17e4">Several presentations on status in TC VCARD and progress at ISO/TC 211. TC VCARD
-is working on the New Work Item Proposal on a machine-readable address profile data
-format for TC 211 and expects to submit it soon, perhaps by the next TC 211 Plenary.</p>
-</clause>
-<clause id="_bof_sessions" obligation="normative"><title>BOF sessions</title><p id="_aaadea0e-cfd0-4f57-a4d1-87a87e286058">Birds of a Feather sessions were held on security and on streaming for iCalendar data.</p>
-<p id="_45b1a568-0d08-4291-9e2e-e1e4560eaec0">Work will continue on a security model starting from VCARD security, via mailing list
-and slack. Proposed an initial call for an Ad Hoc on Streaming.</p></clause></clause>
-<clause id="_plenary_meeting" obligation="normative"><title>Plenary meeting</title><p id="_30e3ca9b-91c0-44e2-b0af-157804eed4da">Oath (combined AOL and Yahoo) will host the Winter 2018 CalConnect XLI in
-Sunnyvale, California.</p>
-<p id="_08f86ae0-c4f7-4991-8366-aa3735ff5116">Specific dates were set for CalConnect XLI and CalConnect XLIII (see below).</p></clause>
-<clause id="_future_events" obligation="normative"><title>Future events</title><ul id="_e63cab65-354a-4a20-bf7f-4cdeda524171">
-  <li>
-    <p id="_211928f2-ac4e-441c-9bc7-36596f6f7bf8">CalConnect XLI - January 28 - February 2, 2018 - Oath, Sunnyvale, California</p>
-  </li>
-  <li>
-    <p id="_691ae5fe-0e6e-4005-98fd-927dc5543286">CalConnect XLII - June 4-8, 2018 - Jorte, Tokyo, Japan</p>
-  </li>
-  <li>
-    <p id="_ce81d022-3ba5-451c-a9cb-778df744a0a9">CalConnect XLIII - September 24028, 2018 - 1&amp;1, Karlsruhe, Germany</p>
-  </li>
-</ul>
-<p id="_d18a1617-c325-489d-9a21-89ab02471a5d">The general format of the CalConnect Week is:</p>
-<ul id="_bd79e128-030a-409f-b055-c15ce973464c">
-  <li>
-    <p id="_10ebf5f9-8fb5-46d2-86b7-15c381357dcc">Monday morning through Wednesday noon, Test Event and Developer’s Forum
-(testing, tech discussions)</p>
-  </li>
-  <li>
-    <p id="_e9af049f-df0d-4b48-bb72-7a58172a4201">Wednesday noon through Friday afternoon, Conference</p>
-  </li>
-</ul></clause>
-<clause id="_pictures_from_calconnect_xl" obligation="normative">
-  <title>PICTURES FROM CALCONNECT XL</title>
-  <p id="_2dc68552-5498-4e77-8da2-a859efae4c41">Pictures courtesy of Thomas Schäfer, 1&amp;1</p>
+<preface><foreword obligation="informative"><title>Foreword</title><p id="_5344d91f-815d-41d0-a9b3-cde38425a613">The Calendaring and Scheduling Consortium (“CalConnect”) is global non-profit   
+organization with the aim to facilitate interoperability of technologies across   
+user-centric systems and applications.</p>  
+<p id="_7e02c2da-1bc1-4a1a-b756-0aa2ee045fde">CalConnect works closely with liaison partners including international   
+organizations such as ISO, OASIS and M3AAWG.</p>  
+<p id="_aa404908-1bae-4cc7-ab17-914b6cae773b">The procedures used to develop this document and those intended for its further   
+maintenance are described in the CalConnect Directives.</p>  
+<p id="_7cfdbb18-608b-46a6-a110-b9dff8b517de">In particular the different approval criteria needed for the different types of   
+ISO documents should be noted. This document was drafted in accordance with the   
+editorial rules of the CalConnect Directives.</p>  
+<p id="_b6a0d20d-ef73-4e23-8c88-6e9482b76c20">Attention is drawn to the possibility that some of the elements of this   
+document may be the subject of patent rights. CalConnect shall not be held responsible   
+for identifying any or all such patent rights. Details of any patent rights   
+identified during the development of the document will be in the Introduction   
+and/or on the CalConnect list of patent declarations received (see   
+www.calconnect.com/patents).</p>  
+<p id="_d21144ac-eec8-49e8-8735-f37e3ba55a9a">Any trade name used in this document is information given for the convenience   
+of users and does not constitute an endorsement.</p>  
+<p id="_4f75d9c5-f133-4e90-b6e5-078d7bc0202a">This document was prepared by Technical Committee <em>CHAIRS</em>.</p></foreword><introduction id="_introduction" obligation="informative"><title>Introduction</title><p id="_621a478f-b12d-489b-90aa-cd6330b8f3dc">CalConnect XL took place September 27-29, 2017, hosted by Open-Xchange in   
+Cologne, Germany. The CalConnect Test Event (Monday, Tuesday, and Wednesday   
+morning) and Conference (Wednesday afternoon, Thursday and Friday) were held at   
+Komed House, a conference facility in the Cologne Media Park.</p>  
+<p id="_ed08cfe8-decf-4dc5-95fb-0a9ffa78a24b">The CalConnect Conference was attended by 20 people from 12 members plus a   
+guest from GFI. The Test Event/Developers Forum had 10 participants from 7   
+members and was largely devoted to the forum and CalDAV Tester rather than specific   
+testing.</p>  
+<p id="_0de5dfbf-357d-4685-b2a3-36743eeb90f1">The Conference focussed on strategic and possible work items in addition to ongoing   
+work, and finished with the CalConnect Plenary Session on Friday afternoon. The   
+Conference agenda with notes on the discussion topics may be found at CalConnect   
+XL Conference Schedule.</p></introduction></preface><sections> 
+ 
+<clause id="_status_of_documents_since_last_conference" obligation="normative"><title>Status of documents since last conference</title><p id="_180c9809-39ca-47c5-b66b-acd9223f815b">Much of the ongoing work in CalConnect is focused on specifications to become   
+internet draft submissions to the IETF and ultimately be progressed to publication as   
+RFCs (Proposed Standards), rather than directly published by CalConnect itself.</p>  
+<p id="_cec16525-7446-4c6c-8dce-0d5e314a4642">Specifications in progress and not yet published are generally resident on GitHub either   
+in our public or private areas.</p>  
+<clause id="_calconnect_drafts_to_be_published_as_informational_rfcs" obligation="normative">   
+  <title>CalConnect Drafts to be Published as Informational RFCs</title>   
+  <ul id="_2e3bb45c-10aa-4af6-aec0-7e2883a99030">    
+  <li>    
+    <p id="_717dd715-8882-4f5b-bd31-e124135e1f01">CalDAV Managed Attachments (TC CALENDAR)</p>    
+  </li>    
+</ul>   
+</clause>  
+<clause id="_calconnect_drafts_in_calext_working_group_last_call_at_ietf" obligation="normative">   
+  <title>CalConnect Drafts in CALEXT Working Group Last Call at IETF</title>   
+  <ul id="_c9246de2-33cd-4690-98e0-36fdcb32e3c5">    
+  <li>    
+    <p id="_b4afc5dc-7ee7-493c-a211-0ccc1c31f173">Event Publishing Extensions to iCalendar (TC CALENDAR)</p>    
+  </li>    
+</ul>   
+</clause>  
+<clause id="_calconnect_drafts_in_progressing_at_calext_working_group_at_ietf" obligation="normative">   
+  <title>CalConnect Drafts in Progressing at CALEXT Working Group at IETF</title>   
+  <ul id="_6c3ae6c4-1bc3-4280-a136-1041fb6282fd">    
+  <li>    
+    <p id="_5ff2ece6-05fc-4629-92ee-144207402d6e">Improved Support for iCalendar Relationships (TC CALENDAR</p>    
+  </li>    
+</ul>   
+</clause>  
+<clause id="_new_and_updated_calconnect_drafts_at_the_ietf" obligation="normative">   
+  <title>New and Updated CalConnect Drafts at the IETF</title>   
+  <ul id="_f3aacdf6-90da-4418-ad6d-b3c0bf293f3c">    
+  <li>    
+    <p id="_67c8490e-5d63-4c16-b8d7-e25bf5caa463">Push Discovery and Notification Dispatch Protocol (TC CALENDAR)</p>    
+  </li>    
+  <li>    
+    <p id="_dc9ceb3a-d51f-4373-89f8-b9454c2da9db">Calendar Subscription Upgrades</p>    
+  </li>    
+  <li>    
+    <p id="_e566ff93-ac10-43c9-a69a-738ad03a634f">JSCalendar: A JSON representation of calendar data</p>    
+  </li>    
+</ul>   
+</clause></clause> 
+<clause id="_general_status_and_announcements" obligation="normative"><title>General status and announcements</title><p id="_dc643aab-6c7b-4076-9a61-d7dd935fde27">Ronald Tse of Ribose was elected the sixth CalConnect Director, and was appointed   
+Director, External Relationships.</p>  
+<p id="_218c3fef-d922-43b6-8492-f157c93b0f83">CalConnect has established a formal Category A Liaison with ISO/TC 211 and is   
+exploring a similar liaison with ISO/TC 154. We are also exploring a joint liaison with   
+M3AAWG.</p></clause> 
+<clause id="_status_of_technical_committee_and_related_work_plans_for_future_work" obligation="normative"><title>Status of technical committee and related work; plans for future work</title><clause id="_tc_api" obligation="normative">   
+  <title>TC API</title>   
+  <p id="_803f8c0f-29e9-42ab-b78d-ac02eae14af5">Work on JSCalendar is progressing, accommodating contacts and tasks as well as    
+events.</p>   
+</clause>  
+<clause id="_tc_autodiscovery" obligation="normative">   
+  <title>TC AUTODISCOVERY</title>   
+  <p id="_4d4c4b60-0dd6-40fb-a132-892ddf4d7f5a">Pending; Draft update in progress</p>   
+</clause>  
+<clause id="_tc_calendar" obligation="normative">   
+  <title>TC CALENDAR</title>   
+  <p id="_31e98b34-ecd6-4799-aae1-4e7e000531de">Work continues on categorization and event types, consistent handling of per-user    
+data in events, support for series in iCalendar (as an alternative to recurrences), alarms    
+and transparency in JSCalendar, generic notification systems for alarms, calendar    
+subscription upgrades, extensions for improved grouping of properties, and a    
+CalConnect version of ical4j.</p>   
+</clause>  
+<clause id="_tc_devguide" obligation="normative">   
+  <title>TC DEVGUIDE</title>   
+  <p id="_9d254aa1-6800-4727-8229-51b58a615ab5">Service has been migrated of open shift to the Google App engine. We are looking for    
+help with the wikipedia article on CalConnect and related articles. Discussion of    
+additional areas to be added to the Developers Guide including CalDAV Tester.</p>   
+</clause>  
+<clause id="_tc_ioptest" obligation="normative">   
+  <title>TC IOPTEST</title>   
+  <p id="_8b006004-dfd6-4ac0-95c6-85d0af5fdb4c">See separate report on Test Event at CalConnect XL. TC IOPTEST calls have been    
+integrated into the Event Planning calls and no separate IOPTEST calls were held since    
+the previous event in June.</p>   
+</clause>  
+<clause id="_tc_push" obligation="normative">   
+  <title>TC PUSH</title>   
+  <p id="_3e509bba-2e82-4109-9e33-c15ab90a0899">Draft has been submitted to the IETF; we are exploring which working group should    
+handle it. Looking for more implementations.</p>   
+</clause>  
+<clause id="_tc_sharing" obligation="normative">   
+  <title>TC SHARING</title>   
+  <p id="_5212229f-8b3d-468d-a6d5-5f9101693d21">Calendar Subscription Upgrades decided on a new status (not cancelled) and adding    
+time range query. Working on how to advertise which timezone server is used.</p>   
+</clause>  
+<clause id="_tc_tester" obligation="normative">   
+  <title>TC TESTER</title>   
+  <p id="_43d65bf7-55e3-43c5-b10f-56892b902efa">Brief report on the status of the work.</p>   
+</clause>  
+<clause id="_tc_vcard" obligation="normative">   
+  <title>TC VCARD</title>   
+  <p id="_bdf7fc6d-fabc-430e-aca9-d87571963027">Several presentations on status in TC VCARD and progress at ISO/TC 211. TC VCARD    
+is working on the New Work Item Proposal on a machine-readable address profile data    
+format for TC 211 and expects to submit it soon, perhaps by the next TC 211 Plenary.</p>   
+</clause>  
+<clause id="_bof_sessions" obligation="normative"><title>BOF sessions</title><p id="_bc60de57-b904-4149-b6f7-b4f9163db6bb">Birds of a Feather sessions were held on security and on streaming for iCalendar data.</p>   
+<p id="_154a0c5b-8935-4714-8bea-f9d27152c588">Work will continue on a security model starting from VCARD security, via mailing list    
+and slack. Proposed an initial call for an Ad Hoc on Streaming.</p></clause></clause> 
+<clause id="_plenary_meeting" obligation="normative"><title>Plenary meeting</title><p id="_09213352-97cd-4554-9c36-f1579efd2405">Oath (combined AOL and Yahoo) will host the Winter 2018 CalConnect XLI in   
+Sunnyvale, California.</p>  
+<p id="_2420ea32-1759-4a49-9f5e-9b77c49d59db">Specific dates were set for CalConnect XLI and CalConnect XLIII (see below).</p></clause> 
+<clause id="_future_events" obligation="normative"><title>Future events</title><ul id="_e4a0ebfd-609e-4b17-af33-8aa5246c0d19">   
+  <li>   
+    <p id="_14a0cff2-f8ee-469c-9e01-50b9762c1ffb">CalConnect XLI - January 28 - February 2, 2018 - Oath, Sunnyvale, California</p>   
+  </li>   
+  <li>   
+    <p id="_391d5446-de0f-4268-a82a-63a5c11c459c">CalConnect XLII - June 4-8, 2018 - Jorte, Tokyo, Japan</p>   
+  </li>   
+  <li>   
+    <p id="_06657568-e325-49fb-beda-97a59862825c">CalConnect XLIII - September 24028, 2018 - 1&amp;1, Karlsruhe, Germany</p>   
+  </li>   
+</ul>  
+<p id="_81264de1-a023-43a6-9a00-c345ea450aa7">The general format of the CalConnect Week is:</p>  
+<ul id="_7e74f8f6-a164-4ecf-9dec-86be79d3d6f4">   
+  <li>   
+    <p id="_4bcc09f5-0e33-439a-b556-925fb60af8d7">Monday morning through Wednesday noon, Test Event and Developer’s Forum   
+(testing, tech discussions)</p>   
+  </li>   
+  <li>   
+    <p id="_5873b0c0-f3c4-45c9-b035-8e521a92e244">Wednesday noon through Friday afternoon, Conference</p>   
+  </li>   
+</ul></clause> 
+<clause id="_pictures_from_calconnect_xl" obligation="normative">  
+  <title>PICTURES FROM CALCONNECT XL</title>  
+  <p id="_2ddf3b28-628f-4868-8938-497dd62973cc">Pictures courtesy of Thomas Schäfer, 1&amp;1</p>  
 </clause></sections>
 </csd-standard>
