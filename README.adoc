@@ -3,6 +3,8 @@
 This repository contains CSD sources, and gets rendered into a Relaton collection mini-site.
 
 image:https://travis-ci.com/metanorma/csd-public-documents.svg?branch=master["Build Status", link="https://travis-ci.com/metanorma/csd-public-documents"]
+image:https://ci.appveyor.com/api/projects/status/7atjbe4hd9o6t5qx/branch/master?svg=true
+["Build Status", link="https://ci.appveyor.com/project/ribose/csd-public-documents"]
 
 == Access
 
