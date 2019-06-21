@@ -1,38 +1,43 @@
-<bibdata type="administrative"> 
-  <title language="en" format="text/plain">Report on CalConnect Conference XL, September 27-29, 2017</title> 
-  <docidentifier type="csd">CC/A 1705:2017</docidentifier> 
-  <docnumber>1705</docnumber> 
-  <date type="published"> 
-    <on>2017-10-23T00:00:00Z</on> 
-  </date> 
-  <contributor> 
-    <role type="author"/> 
-    <organization> 
-      <name>CalConnect</name> 
-    </organization> 
-  </contributor> 
-  <contributor> 
-    <role type="publisher"/> 
-    <organization> 
-      <name>CalConnect</name> 
-    </organization> 
-  </contributor> 
-  <edition>1</edition> 
-  <version> 
-    <revision-date>2017-10-23T00:00:00Z</revision-date> 
-  </version> 
-  <language>en</language> 
-  <script>Latn</script> 
-  <status format="plain">published</status> 
-  <copyright> 
-    <from>2017</from> 
-    <owner> 
-      <organization> 
-        <name>CalConnect</name> 
-      </organization> 
-    </owner> 
-  </copyright> 
-  <editorialgroup> 
-    <technical-committee>CHAIRS</technical-committee> 
-  </editorialgroup> 
+<bibdata type="standard">
+  <title language="en" format="text/plain">Report on CalConnect Conference XL, September 27-29, 2017</title>
+  <docidentifier type="csd">CC/A 1705:2017</docidentifier>
+  <docnumber>1705</docnumber>
+  <date type="published">
+    <on>2017-10-23T00:00:00Z</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2017-10-23T00:00:00Z</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>published</stage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>administrative</doctype>
+    <editorialgroup>
+      <technical-committee>CHAIRS</technical-committee>
+    </editorialgroup>
+  </ext>
 </bibdata>
