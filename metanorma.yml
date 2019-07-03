@@ -1,0 +1,8 @@
+---
+metanorma:
+  deploy:
+    email: "travis-ci@calconnect.org"
+relaton:
+  collection:
+    organization: "CalConnect : The Calendaring and Scheduling Consortium"
+    name: "CalConnect Conference and IOP Testing Reports"
