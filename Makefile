@@ -1,24 +1,22 @@
 #!make
 SHELL := /bin/bash
 
-include metanorma.env
-export $(shell sed 's/=.*//' metanorma.env)
+IGNORE := $(shell mkdir -p $(HOME)/.cache/xml2rfc)
 
-RELATON_COLLECTION_ORG  := "CalConnect : The Calendaring and Scheduling Consortium"
-RELATON_COLLECTION_NAME := "CalConnect Conference and IOP Testing Reports"
+SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
+ifeq ($(SRC),ll)
+SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
+endif
 
-comma := ,
-empty :=
-space := $(empty) $(empty)
+FORMAT_MARKER := mn-output-
+FORMATS := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d ' ' | tr ',' '\n' | sort | uniq | tr '\n' ' ')
 
-SRC  := $(wildcard sources/*.adoc)
 INPUT_XML  := $(patsubst %.adoc,%.xml,$(SRC))
 OUTPUT_XML  := $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.xml,$(SRC)))
 OUTPUT_HTML := $(patsubst %.xml,%.html,$(OUTPUT_XML))
-FORMATS := xml html
 
 COMPILE_CMD_LOCAL := bundle exec metanorma -R $${FILENAME//adoc/rxl} $$FILENAME
-COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma $${FILENAME//adoc/rxl}  $$FILENAME"
+COMPILE_CMD_DOCKER := docker run -v "$$(pwd)":/metanorma/ ribose/metanorma "metanorma $${FILENAME//adoc/rxl} $$FILENAME"
 
 ifdef METANORMA_DOCKER
   COMPILE_CMD := echo "Compiling via docker..."; $(COMPILE_CMD_DOCKER)
@@ -43,8 +41,8 @@ documents/%.xml: documents sources/%.xml
 
 documents.rxl: $(OUTPUT_XML)
 	bundle exec relaton concatenate \
-	  -t $(RELATON_COLLECTION_NAME) \
-		-g $(RELATON_COLLECTION_ORG) \
+	  -t "$(shell yq r metanorma.yml relaton.collection.name)" \
+		-g "$(shell yq r metanorma.yml relaton.collection.organization)" \
 		documents $@
 
 documents.html: documents.rxl
@@ -126,14 +124,3 @@ published: documents.html
 	cp -a documents $@/ && \
 	cp $< published/index.html; \
 	if [ -d "images" ]; then cp -a images published; fi
-
-deploy_key:
-	openssl aes-256-cbc -K $(encrypted_$(ENCRYPTION_LABEL)_key) \
-		-iv $(encrypted_$(ENCRYPTION_LABEL)_iv) -in $@.enc -out $@ -d && \
-	chmod 600 $@
-
-deploy: deploy_key
-	export COMMIT_AUTHOR_EMAIL=$(COMMIT_AUTHOR_EMAIL); \
-	./deploy.sh
-
-.PHONY: publish deploy
